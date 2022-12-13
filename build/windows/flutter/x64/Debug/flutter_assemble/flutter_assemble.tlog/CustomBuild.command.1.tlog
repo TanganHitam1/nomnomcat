@@ -1,0 +1,28 @@
+^C:\USERS\BLACK\DOWNLOADS\TUGAS\SEM5\PEMIOT\PROJECT\TUKIR\BUILD\WINDOWS\CMAKEFILES\DC5824C1F942DB5645D28AD251B37379\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\AdditionalPackages\flutter PROJECT_DIR=C:\Users\black\Downloads\Tugas\Sem5\PemIoT\Project\tukir FLUTTER_ROOT=C:\AdditionalPackages\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\black\Downloads\Tugas\Sem5\PemIoT\Project\tukir\windows\flutter\ephemeral PROJECT_DIR=C:\Users\black\Downloads\Tugas\Sem5\PemIoT\Project\tukir FLUTTER_TARGET=C:\Users\black\Downloads\Tugas\Sem5\PemIoT\Project\tukir\lib\main.dart DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\Users\black\Downloads\Tugas\Sem5\PemIoT\Project\tukir\.dart_tool\package_config.json C:/AdditionalPackages/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BLACK\DOWNLOADS\TUGAS\SEM5\PEMIOT\PROJECT\TUKIR\BUILD\WINDOWS\CMAKEFILES\E21117C9B7ECC898EF5F79FE75A90904\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\BLACK\DOWNLOADS\TUGAS\SEM5\PEMIOT\PROJECT\TUKIR\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/black/Downloads/Tugas/Sem5/PemIoT/Project/tukir/windows -BC:/Users/black/Downloads/Tugas/Sem5/PemIoT/Project/tukir/build/windows --check-stamp-file C:/Users/black/Downloads/Tugas/Sem5/PemIoT/Project/tukir/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

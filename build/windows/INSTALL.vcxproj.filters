@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\black\Downloads\Tugas\Sem5\PemIoT\Project\tukir\build\windows\CMakeFiles\7c5b7525e0754aece9dbe182209f76a3\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{A4EED791-167F-3E5A-B15F-BDEEF88CAB17}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
